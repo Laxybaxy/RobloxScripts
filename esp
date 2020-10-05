@@ -530,17 +530,17 @@ function Load()
 end
 
 Options('Enabled', 'ESP Enabled', true);
-Options('ShowTeam', 'Show Team', true);
+Options('ShowTeam', 'Show Team', false);
 Options('ShowTeamColor', 'Show Team Color', false);
-Options('ShowName', 'Show Names', true);
+Options('ShowName', 'Show Names', false);
 Options('ShowDistance', 'Show Distance', true);
-Options('ShowHealth', 'Show Health', true);
-Options('ShowBoxes', 'Show Boxes', true);
-Options('ShowTracers', 'Show Tracers', true);
-Options('ShowDot', 'Show Head Dot', false);
+Options('ShowHealth', 'Show Health', false);
+Options('ShowBoxes', 'Show Boxes', false);
+Options('ShowTracers', 'Show Tracers', false);
+Options('ShowDot', 'Show Head Dot', true);
 Options('VisCheck', 'Visibility Check', false);
-Options('Crosshair', 'Crosshair', false);
-Options('TextOutline', 'Text Outline', true);
+Options('Crosshair', 'Crosshair', true);
+Options('TextOutline', 'Text Outline', false);
 -- Options('Rainbow', 'Rainbow Mode', false);
 Options('TextSize', 'Text Size', syn and 18 or 14, 10, 24); -- cuz synapse fonts look weird???
 Options('MaxDistance', 'Max Distance', 2500, 100, 25000);
